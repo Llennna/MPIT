@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Путешествия по Якутии</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">Путешествия по Якутии</h1>
+            <nav class="nav">
+                <a href="#plan">Планирование поездки</a>
+                <a href="#attractions">Достопримечательности</a>
+                <a href="#events">Культурные мероприятия</a>
+                <a href="#contact">Контакты</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Откройте для себя красоту Якутии</h2>
+            <p>Планируйте маршруты, исследуйте достопримечательности и находите лучшие места для отдыха.</p>
+            <a href="#plan" class="btn">Начать путешествие</a>
+        </div>
+    </section>
+
+    <!-- Plan Section -->
+    <section id="plan" class="section">
+        <div class="container">
+            <h2>Планирование поездки</h2>
+            <p>Создайте маршрут своей мечты, выбирая из множества доступных направлений.</p>
+            <form class="trip-form">
+                <label for="from">Откуда:</label>
+                <input type="text" id="from" name="from" placeholder="Например, Якутск">
+                <label for="to">Куда:</label>
+                <input type="text" id="to" name="to" placeholder="Например, Ленские столбы">
+                <label for="date">Дата поездки:</label>
+                <input type="date" id="date" name="date">
+                <button type="submit" class="btn">Построить маршрут</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Attractions Section -->
+    <section id="attractions" class="section">
+        <div class="container">
+            <h2>Достопримечательности</h2>
+            <div class="grid">
+                <div class="card">
+                    <img src="lenkie_stolby.jpg" alt="Ленские столбы">
+                    <h3>Ленские столбы</h3>
+                    <p>Уникальный природный памятник на берегу реки Лена.</p>
+                </div>
+                <div class="card">
+                    <img src="olenevodstvo.jpg" alt="Оленеводство">
+                    <h3>Оленеводческие стоянки</h3>
+                    <p>Знакомство с культурой и бытом коренных народов Якутии.</p>
+                </div>
+                <div class="card">
+                    <img src="aurora.jpg" alt="Северное сияние">
+                    <h3>Северное сияние</h3>
+                    <p>Восхитительные небесные огни в зимние ночи.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Events Section -->
+    <section id="events" class="section">
+        <div class="container">
+            <h2>Культурные мероприятия</h2>
+            <ul>
+                <li><strong>Фестиваль "Ысыах Туймаады"</strong> — июнь, Якутск.</li>
+                <li><strong>Зимний праздник "Северное сияние"</strong> — январь, Тикси.</li>
+                <li><strong>Фестиваль национальной кухни</strong> — август, Мирный.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>© 2024 Путешествия по Якутии. Все права защищены.</p>
+            <nav class="nav">
+                <a href="#plan">Планирование</a>
+                <a href="#attractions">Достопримечательности</a>
+                <a href="#events">Мероприятия</a>
+                <a href="#contact">Контакты</a>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>
